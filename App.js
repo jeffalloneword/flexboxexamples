@@ -5,6 +5,9 @@ class FlexboxExamples extends Component {
   render() {
     return (
       <View style={styles.container}>
+        {/*<View style={[styles.box, {flex: 1}]}/>*/}
+        {/*<View style={[styles.box, {flex: 2}, {alignSelf: 'flex-end'}]}/>*/}
+        {/*<View style={[styles.box, {flex: 1}]}/>*/}
         <View style={styles.box}/>
         <View style={styles.box}/>
         <View style={styles.box}/>
@@ -15,7 +18,18 @@ class FlexboxExamples extends Component {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    // flex: 1,
+    flexDirection: 'row',
+    // justifyContent: 'flex-start',
+    // justifyContent: 'center',
+    justifyContent: 'flex-end',
+    // justifyContent: 'space-between',
+    // justifyContent: 'space-around',
+    alignItems: 'flex-start',
+    // alignItems: 'center',
+    // alignItems: 'flex-end',
+    // alignItems: 'stretch',
+
   },
   box: {
     height: 50,

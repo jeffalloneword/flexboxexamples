@@ -18,15 +18,15 @@ class FlexboxExamples extends Component {
 
 const styles = StyleSheet.create({
   container: {
-    // flex: 1,
-    flexDirection: 'row',
+    flex: 1,
+    // flexDirection: 'row',
     // justifyContent: 'flex-start',
-    // justifyContent: 'center',
-    justifyContent: 'flex-end',
+    justifyContent: 'center',
+    // justifyContent: 'flex-end',
     // justifyContent: 'space-between',
     // justifyContent: 'space-around',
-    alignItems: 'flex-start',
-    // alignItems: 'center',
+    // alignItems: 'flex-start',
+    alignItems: 'center',
     // alignItems: 'flex-end',
     // alignItems: 'stretch',
 
